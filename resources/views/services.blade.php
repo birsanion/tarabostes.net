@@ -42,21 +42,21 @@
     </div>
   </div>
 
-  <div class="section-bg mb-4">
+  <div class="suscribe-area mb-4">
     <div class="container py-5">
       <div class="row">
-        <div class="col-lg-6" >
-          <div class="section-headline" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-6 pr-3" >
+          <div class="section-headline mb-3" data-aos="fade-up" data-aos-delay="100">
             <h2>Defining your product vision with insight and innovation</h2>
           </div>
-          <p data-aos="fade-up" data-aos-delay="100">
+          <h6 data-aos="fade-up" data-aos-delay="100">
             Any great product starts with a vision, followed by the strategy to deliver it. Our multi-disciplinary teams can bring innovative thinking to existing challenges, collaboratively help to define the best customer experiences to move your business forward and outline the technology capable of delivering it.
-          </p>
+          </h6>
         </div>
         <div class="col-lg-6">
           <h6 class="text-uppercase" data-aos="fade-up" data-aos-delay="100">
             <strong>
-              <small>
+              <small class="section-title">
                 How can we help you?
               </small>
             </strong>
@@ -91,18 +91,18 @@
   <div class="mb-4">
     <div class="container py-5">
       <div class="row">
-        <div class="col-lg-6">
-          <div class="section-headline" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-6 pr-3">
+          <div class="section-headline mb-3" data-aos="fade-up" data-aos-delay="100">
             <h2>Designing and engineering transformational products</h2>
           </div>
-          <p data-aos="fade-up" data-aos-delay="100">
+          <h6 data-aos="fade-up" data-aos-delay="100">
             Experience designers and software engineers combine to create digital products and solutions focused on results. With your users front and centre, we’ll research, design, code and test our way through even the most complex problems to deliver technology that moves boundaries.
-          </p>
+          </h6>
         </div>
         <div class="col-lg-6">
           <h6 class="text-uppercase" data-aos="fade-up" data-aos-delay="100">
             <strong>
-              <small>How can we help you?</small>
+              <small class="section-title">How can we help you?</small>
             </strong>
           </h6>
           <ul class="list-group list-group-flush" data-aos="fade-up" data-aos-delay="100">
@@ -132,21 +132,21 @@
     </div>
   </div>
 
-  <div class="section-bg mb-4">
+  <div class="suscribe-area mb-4">
     <div class="container py-5">
       <div class="row">
-        <div class="col-lg-6">
-          <div class="section-headline" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-6 pr-3">
+          <div class="section-headline mb-3" data-aos="fade-up" data-aos-delay="100">
             <h2>Performance through support and optimisation</h2>
           </div>
-          <p data-aos="fade-up" data-aos-delay="100">
+          <h6 data-aos="fade-up" data-aos-delay="100">
             Our managed services team focuses on core support, monitoring and maintenance to ensure uptime and reliability. A combination of marketers, data scientists and engineers can help you take your product to the next level through continual analysis of user behaviours and technology performance.
-          </p>
+          </h6>
         </div>
         <div class="col-lg-6">
           <h6 class="text-uppercase" data-aos="fade-up" data-aos-delay="100">
             <strong>
-              <small>
+              <small class="section-title">
                 How can we help you?
               </small>
             </strong>

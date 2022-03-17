@@ -7,13 +7,11 @@
             <div class="footer-head">
               <h4 class="text-uppercase"><strong>Quick links</strong></h4>
               <ul>
-                <li>Experience</li>
-                <li>
-                  <a href="services.html">Services</a>
-                </li>
-                <li>Solutions</li>
-                <li>About Us</li>
-                <li>Get In Touch</li>
+                <li>Home</li>
+                <li>Company</li>
+                <li>Contact us</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Conditions</li>
               </ul>
             </div>
           </div>

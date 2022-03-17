@@ -8,11 +8,11 @@
 
     <nav id="navbar" class="navbar">
       <ul>
-        <li><a class="nav-link text-uppercase" href="#">Experience</a></li>
-        <li><a class="nav-link text-uppercase" href="{!! route('services') !!}">Services</a></li>
-        <li><a class="nav-link text-uppercase" href="#">Solutions</a></li>
-        <li><a class="nav-link text-uppercase" href="#">About</a></li>
-        <li><a class="nav-link text-uppercase" href="#">Get in touch</a></li>
+        <li><a class="nav-link text-uppercase" href="#"><strong>Experience</strong></a></li>
+        <li><a class="nav-link text-uppercase" href="{!! route('services') !!}"><strong>Services</strong></a></li>
+        <li><a class="nav-link text-uppercase" href="#"><strong>Solutions</strong></a></li>
+        <li><a class="nav-link text-uppercase" href="#"><strong>About</strong></a></li>
+        <li><a class="nav-link text-uppercase" href="#"><strong>Get in touch</strong></a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav>
