@@ -4,21 +4,10 @@
 <main id="main">
   <div class="header-bg page-area d-flex align-items-center" style="background-image: url(/img/banners/services.jpg)">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="slider-content text-center">
-            <div class="header-top">
-              <p class="animate__animated animate__fadeInDown">
-                <strong>
-                  We build digital products that power business
-                </strong>
-              </p>
-              <h4 class="animate__animated animate__fadeInDown">
-                We create technology to keep our clients and their customers moving forward.
-              </h4>
-            </div>
-          </div>
-        </div>
+      <div class="header-title" data-aos="fade-up" data-aos-delay="100">
+        <h2 class="m-0"><strong>We build digital products<strong></h2>
+        <h4><strong>that power business</strong></h4>
+        <h5>We create technology to keep our clients and their customers moving forward.</h5>
       </div>
     </div>
   </div>

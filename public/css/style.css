@@ -261,11 +261,12 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
 }
 
 .header-bg {
+  position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   padding: 120px 0 60px;
-  height: 100vh;
+  height: 75vh;
 }
 .header-bg::before {
   content: "";
@@ -1814,4 +1815,27 @@ span.email-notes {
 
 .list-group-item {
   border: 1px solid #3B3A77;
+}
+
+.header-title {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  max-width: 50%;
+  padding: 15px;
+  background: #000000bf;
+  padding-left: 80px;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .header-title {
+    max-width: 100%;
+    padding-left: 15px;
+  }
+}
+
+
+.header-title h1, .header-title h2, .header-title h3, .header-title h4, .header-title h5, .header-title h6 {
+  color: #fff;
 }

@@ -121,39 +121,47 @@
             <h6>We create technology to keep our clients and their customers moving forward.</h6>
           </div>
           <div class="col-md-3 col-sm-3 col-xs-12 mb-3" data-aos="zoom-in" data-aos-delay="100">
-            <div class="services-img">
-              <img src="https://picsum.photos/520/450" alt="">
-            </div>
-            <div class="services-content">
-              <h5 class="mb-1">API Integration</h5>
-            </div>
+            <a href="{!! route('api-integration') !!}">
+              <div class="services-img">
+                <img src="https://picsum.photos/520/450" alt="">
+              </div>
+              <div class="services-content">
+                <h5 class="mb-1">API Integration</h5>
+              </div>
+            </a>
           </div>
 
           <div class="col-md-3 col-sm-3 col-xs-12 mb-3" data-aos="zoom-in" data-aos-delay="100">
-            <div class="services-img">
-              <img src="https://picsum.photos/520/450" alt="">
-            </div>
-            <div class="services-content">
-              <h5 class="mb-1">Mobile UI/UX Design</h5>
-            </div>
+            <a href="{!! route('design') !!}">
+              <div class="services-img">
+                <img src="https://picsum.photos/520/450" alt="">
+              </div>
+              <div class="services-content">
+                <h5 class="mb-1">Mobile UI/UX Design</h5>
+              </div>
+            </a>
           </div>
 
           <div class="col-md-3 col-sm-3 col-xs-12 mb-3" data-aos="zoom-in" data-aos-delay="100">
-            <div class="services-img">
-              <img src="https://picsum.photos/520/450" alt="">
-            </div>
-            <div class="services-content">
-              <h5 class="mb-1">Mobile App Development </h5>
-            </div>
+            <a href="{!! route('mobile-development') !!}">
+              <div class="services-img">
+                <img src="https://picsum.photos/520/450" alt="">
+              </div>
+              <div class="services-content">
+                <h5 class="mb-1">Mobile App Development </h5>
+              </div>
+            </a>
           </div>
 
           <div class="col-md-3 col-sm-3 col-xs-12 mb-3" data-aos="zoom-in" data-aos-delay="100">
-            <div class="services-img">
-              <img src="https://picsum.photos/520/450" alt="">
-            </div>
-            <div class="services-content">
-              <h5 class="mb-1">Drive web development</h5>
-            </div>
+            <a href="{!! route('web-development') !!}">
+              <div class="services-img">
+                <img src="https://picsum.photos/520/450" alt="">
+              </div>
+              <div class="services-content">
+                <h5 class="mb-1">Drive web development</h5>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -210,7 +218,7 @@
             <div class="col-md-4 col-sm-4 col-xs-12" data-aos="zoom-in" data-aos-delay="100">
               <div class="single-blog">
                 <div class="single-blog-img">
-                  <img src="https://picsum.photos/850/530" alt="">
+                  <img src="/img/internet-of-things.jpg" alt="">
                 </div>
                 <div class="services-content">
                   <h5 class="mb-1">Internet of Things Consulting </h5>
@@ -222,7 +230,7 @@
               <div class="single-blog">
                 <div class="single-blog-img">
                   <a href="blog.html">
-                    <img src="https://picsum.photos/850/530" alt="">
+                    <img src="/img/blockchain.jpg" alt="">
                   </a>
                 </div>
                 <div class="services-content">
@@ -235,7 +243,7 @@
               <div class="single-blog">
                 <div class="single-blog-img">
                   <a href="blog.html">
-                    <img src="https://picsum.photos/850/530" alt="">
+                    <img src="/img/cloud-consulting.jpg" alt="">
                   </a>
                 </div>
                 <div class="services-content">

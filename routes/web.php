@@ -24,3 +24,23 @@ Route::get('/services', function () {
 Route::get('/solutions', function () {
     return view('solutions');
 })->name('solutions');
+
+Route::get('/design', function () {
+    return view('design');
+})->name('design');
+
+Route::get('/api-integration', function () {
+    return view('api-integration');
+})->name('api-integration');
+
+Route::get('/mobile-development', function () {
+    return view('mobile-development');
+})->name('mobile-development');
+
+Route::get('/web-development', function () {
+    return view('web-development');
+})->name('web-development');
+
+Route::get('/get-in-touch', function () {
+    return view('get-in-touch');
+})->name('get-in-touch');

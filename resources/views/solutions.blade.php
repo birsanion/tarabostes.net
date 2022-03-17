@@ -4,23 +4,12 @@
 <main id="main">
   <div class="header-bg page-area d-flex align-items-center" style="background-image: url(/img/banners/solutions.jpg)">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="slider-content text-center">
-            <div class="header-top">
-              <p class="animate__animated animate__fadeInDown">
-                <strong>
-                  Purpose-built outcome-oriented solutions.
-                </strong>
-              </p>
-              <h4 class="animate__animated animate__fadeInDown">
-                Whatever your challenge, we’ll find the right solution
-              </h4>
-              <h4 class="animate__animated animate__fadeInDown">
-                Solving complex problems to move your business forward
-              </h4>
-            </div>
-          </div>
+      <div class="container">
+        <div class="header-title" data-aos="fade-up" data-aos-delay="100">
+          <h2 class="m-0"><strong>Hi-tech Solutions<strong></h2>
+          <h4><strong>Purpose-built outcome-oriented solutions.</strong></h4>
+          <h5 class="m-0">Whatever your challenge, we'll find the right solution</h5>
+          <h5>Solving complex problems to move your business forward</h5>
         </div>
       </div>
     </div>
