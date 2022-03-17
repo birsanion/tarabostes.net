@@ -44,3 +44,7 @@ Route::get('/web-development', function () {
 Route::get('/get-in-touch', function () {
     return view('get-in-touch');
 })->name('get-in-touch');
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');

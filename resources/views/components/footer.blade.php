@@ -42,7 +42,7 @@
         <div class="footer-content">
           <div class="footer-head">
             <h4 class="text-uppercase"><strong>Abous us</strong></h4>
-            <p>Based in Bucharest, Romania, Tarabostes S.A. is recognized as one of top digital solutions providers in Romania. Bringing digital softwares and solutions to manu fields of activities, especialu in education. Tarabostes offers a wide array of expertise and services to ensure clients achieve innovative, stabile and intelligent mobile applications, software and enterprise integrations <a class="text-white"><strong>...read more</strong></a></p>
+            <p>Based in Bucharest, Romania, Tarabostes S.A. is recognized as one of top digital solutions providers in Romania. Bringing digital softwares and solutions to manu fields of activities, especialu in education. Tarabostes offers a wide array of expertise and services to ensure clients achieve innovative, stabile and intelligent mobile applications, software and enterprise integrations <a class="text-white" href="{!! route('about') !!}"><strong>...read more</strong></a></p>
           </div>
           <div class="footer-head pt-4">
             <h4 class="text-uppercase"><strong>Contact with us</strong></h4>
