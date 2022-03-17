@@ -1794,6 +1794,20 @@ span.email-notes {
   background: transparent;
 }
 
+.suscribe-area .nav-pills .nav-link  {
+  border: 1px solid #3B3A77;
+  border-radius: 40px;
+  background: white;
+  color: #3B3A77;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.suscribe-area .nav-pills .nav-link.active  {
+  background: #3B3A77;
+  color: #fff;
+}
+
 .section-title {
   color: #3B3A77;
 }
