@@ -86,16 +86,7 @@
     <div class="area-padding">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12 mb-3" data-aos="fade-right" data-aos-delay="100">
-            <div class="well-left">
-              <div class="single-well">
-                <a href="#">
-                  <img src="https://picsum.photos/900/520" alt="">
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-12 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+          <div class="col-xs-12 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
             <div>
               <div class="section-headline">
                 <h2>Tehnology Focus</h2>
@@ -106,20 +97,7 @@
               </h6>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="area-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12" data-aos="zoom-in" data-aos-delay="100">
-            <div class="section-headline" >
-              <h2>Our services</h2>
-            </div>
-            <h6>We build digital products that power business.</h6>
-            <h6>We create technology to keep our clients and their customers moving forward.</h6>
-          </div>
           <div class="col-md-3 col-sm-3 col-xs-12 mb-3" data-aos="zoom-in" data-aos-delay="100">
             <a href="{!! route('api-integration') !!}">
               <div class="services-img">
@@ -167,33 +145,62 @@
       </div>
     </div>
 
+    <div class="area-padding section-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12" data-aos="zoom-in" data-aos-delay="100">
+            <div class="section-headline" >
+              <h2>Our services</h2>
+            </div>
+            <h6>We build digital products that power business.</h6>
+            <h6>We create technology to keep our clients and their customers moving forward.</h6>
+          </div>
+
+          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="zoom-in" data-aos-delay="100">
+            <div class="single-blog">
+              <div class="single-blog-img">
+                <img src="/img/internet-of-things.jpg" alt="">
+              </div>
+              <div class="services-content">
+                <h5 class="mb-1">Internet of Things Consulting </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="zoom-in" data-aos-delay="100">
+            <div class="single-blog">
+              <div class="single-blog-img">
+                <a href="blog.html">
+                  <img src="/img/blockchain.jpg" alt="">
+                </a>
+              </div>
+              <div class="services-content">
+                <h5 class="mb-1">Blockchain Development </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="zoom-in" data-aos-delay="100">
+            <div class="single-blog">
+              <div class="single-blog-img">
+                <a href="blog.html">
+                  <img src="/img/cloud-consulting.jpg" alt="">
+                </a>
+              </div>
+              <div class="services-content">
+                <h5 class="mb-1">Cloud consulting</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!--<div class="blog-area">
       <div class="blog-inner area-padding">
         <div class="container ">
           <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12" data-aos="zoom-in" data-aos-delay="100">
-              <div class="single-blog">
-                <div class="single-blog-img">
-                  <img src="https://picsum.photos/850/530" alt="">
-                </div>
-              </div>
-            </div>
 
-            <div class="col-md-4 col-sm-4 col-xs-12" data-aos="zoom-in" data-aos-delay="100">
-              <div class="single-blog">
-                <div class="single-blog-img">
-                  <img src="https://picsum.photos/850/530" alt="">
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-4 col-xs-12" data-aos="zoom-in" data-aos-delay="100">
-              <div class="single-blog">
-                <div class="single-blog-img">
-                  <img src="https://picsum.photos/850/530" alt="">
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -213,42 +220,79 @@
                 <h2>Our Perspectives</h2>
               </div>
             </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 mb-4" data-aos="zoom-in" data-aos-delay="100">
+              <a href="{!! route('tehnology-strategy') !!}">
+                <div class="single-blog">
+                  <div class="single-blog-img">
+                    <img src="https://picsum.photos/850/530" alt="">
+                  </div>
+                  <div class="services-content">
+                    <h5 class="mb-1">Tehnology strategy</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
 
-            <!-- Start Left Blog -->
-            <div class="col-md-4 col-sm-4 col-xs-12" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-md-4 col-sm-4 col-xs-12 mb-5" data-aos="zoom-in" data-aos-delay="100">
+              <div class="single-blog">
+                <a href="{!! route('product-strategy') !!}">
+                  <div class="single-blog-img">
+                    <img src="https://picsum.photos/850/530" alt="">
+                  </div>
+                  <div class="services-content">
+                    <h5 class="mb-1">Product strategy</h5>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12 mb-5" data-aos="zoom-in" data-aos-delay="100">
               <div class="single-blog">
                 <div class="single-blog-img">
-                  <img src="/img/internet-of-things.jpg" alt="">
+                  <img src="https://picsum.photos/850/530" alt="">
                 </div>
                 <div class="services-content">
-                  <h5 class="mb-1">Internet of Things Consulting </h5>
+                  <h5 class="mb-1">Neuroeducation / Education</h5>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-4 col-sm-4 col-xs-12" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-md-4 col-sm-4 col-xs-12 mb-5" data-aos="zoom-in" data-aos-delay="100">
               <div class="single-blog">
-                <div class="single-blog-img">
-                  <a href="blog.html">
-                    <img src="/img/blockchain.jpg" alt="">
-                  </a>
-                </div>
-                <div class="services-content">
-                  <h5 class="mb-1">Blockchain Development </h5>
-                </div>
+                <a href="{!! route('digital-transformation') !!}">
+                  <div class="single-blog-img">
+                    <img src="https://picsum.photos/850/530" alt="">
+                  </div>
+                  <div class="services-content">
+                    <h5 class="mb-1">Digital transformation</h5>
+                  </div>
+                </a>
               </div>
             </div>
 
-            <div class="col-md-4 col-sm-4 col-xs-12" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-md-4 col-sm-4 col-xs-12 mb-5" data-aos="zoom-in" data-aos-delay="100">
               <div class="single-blog">
-                <div class="single-blog-img">
-                  <a href="blog.html">
-                    <img src="/img/cloud-consulting.jpg" alt="">
-                  </a>
-                </div>
-                <div class="services-content">
-                  <h5 class="mb-1">Cloud consulting</h5>
-                </div>
+                <a href="{!! route('innovation') !!}">
+                  <div class="single-blog-img">
+                    <img src="https://picsum.photos/850/530" alt="">
+                  </div>
+                  <div class="services-content">
+                    <h5 class="mb-1">Innovation</h5>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12 mb-5" data-aos="zoom-in" data-aos-delay="100">
+              <div class="single-blog">
+                <a href="{!! route('foundation') !!}">
+                  <div class="single-blog-img">
+                    <img src="https://picsum.photos/850/530" alt="">
+                  </div>
+                  <div class="services-content">
+                    <h5 class="mb-1">Foundation</h5>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
@@ -261,10 +305,10 @@
         <div class="row">
           <div class="col-xs-12 py-5" data-aos="zoom-in" data-aos-delay="100">
             <div class="section-headline">
-              <h2>Tehnology Focus</h2>
+              <h2>Where we do it.</h2>
             </div>
             <p>
-              We build solutions in the two biggest areas of people&#39;s lives. Health &amp; Wealth and Education. We know how to build valuable intellectual property in these highly regulated industries.
+              We build solutions in the two biggest areas of people's lives. Health & Wealth and Education. We know how to build valuable intellectual property in these highly regulated industries.
             </p>
             <a class="ready-btn border-0">Education</a>
             <a class="ready-btn border-0">Health</a>

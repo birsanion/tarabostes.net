@@ -48,3 +48,23 @@ Route::get('/get-in-touch', function () {
 Route::get('/about', function () {
     return view('about');
 })->name('about');
+
+Route::get('/product-strategy', function () {
+    return view('product-strategy');
+})->name('product-strategy');
+
+Route::get('/tehnology-strategy', function () {
+    return view('tehnology-strategy');
+})->name('tehnology-strategy');
+
+Route::get('/innovation', function () {
+    return view('innovation');
+})->name('innovation');
+
+Route::get('/digital-transformation', function () {
+    return view('digital-transformation');
+})->name('digital-transformation');
+
+Route::get('/foundation', function () {
+    return view('foundation');
+})->name('foundation');

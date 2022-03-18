@@ -21,18 +21,22 @@
           </h5>
         </div>
         <div class="col-sm-6" data-aos="zoom-in" data-aos-delay="100">
-          <h4>
-            Bucuresti<br>
-            str.serg Latea Ghe. 17, bl.C60, ap.65<br>
-            Mobil: <a href="tel:+40754.23.00.00">+40754.23.00.00</a><br>
-          </h4>
+          <h6>
+            <strong>
+              Bucuresti<br>
+              str.serg Latea Ghe. 17, bl.C60, ap.65<br>
+              Mobil: <a href="tel:+40754.23.00.00">+40754.23.00.00</a><br>
+            </strong>
+          </h6>
         </div>
         <div class="col-sm-6" data-aos="zoom-in" data-aos-delay="100">
-          <h4>
-            Buzau<br>
-            Aleea Viitorului G2, ap.15 Buzau-Romania<br>
-            <a href="tel:+40217.463.731">+40217.463.731</a><br>
-          </h4>
+          <h6>
+            <strong>
+              Buzau<br>
+              Aleea Viitorului G2, ap.15 Buzau-Romania<br>
+              <a href="tel:+40217.463.731">+40217.463.731</a><br>
+            </strong>
+          </h6>
         </div>
       </div>
     </div>
