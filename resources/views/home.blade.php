@@ -92,6 +92,16 @@
                 <h2>Tehnology Focus</h2>
               </div>
               <h6>
+                <strong>
+                  Technology for the professional development of visually impaired people
+                </strong>
+              </h6>
+              <h6>
+                <strong>
+                  We make lives better with mobile technologies
+                </strong>
+              </h6>
+              <h6>
                 Our unique, four step process means we don’t simply meet our clients’ needs, we exceed them.
                 Whatever the goal, however complicated the brief, we are driven to succeed.
               </h6>
@@ -141,22 +151,8 @@
               </div>
             </a>
           </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="area-padding section-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12" data-aos="zoom-in" data-aos-delay="100">
-            <div class="section-headline" >
-              <h2>Our services</h2>
-            </div>
-            <h6>We build digital products that power business.</h6>
-            <h6>We create technology to keep our clients and their customers moving forward.</h6>
-          </div>
-
-          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-md-3 col-sm-3 col-xs-12 mb-3 mx-auto" data-aos="zoom-in" data-aos-delay="100">
             <div class="single-blog">
               <div class="single-blog-img">
                 <img src="/img/internet-of-things.jpg" alt="">
@@ -167,12 +163,10 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-md-3 col-sm-3 col-xs-12 mb-3" data-aos="zoom-in" data-aos-delay="100">
             <div class="single-blog">
               <div class="single-blog-img">
-                <a href="blog.html">
-                  <img src="/img/blockchain.jpg" alt="">
-                </a>
+                <img src="/img/blockchain.jpg" alt="">
               </div>
               <div class="services-content">
                 <h5 class="mb-1">Blockchain Development </h5>
@@ -180,12 +174,10 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-md-3 col-sm-3 col-xs-12 mb-3 mx-auto" data-aos="zoom-in" data-aos-delay="100">
             <div class="single-blog">
               <div class="single-blog-img">
-                <a href="blog.html">
-                  <img src="/img/cloud-consulting.jpg" alt="">
-                </a>
+                <img src="/img/cloud-consulting.jpg" alt="">
               </div>
               <div class="services-content">
                 <h5 class="mb-1">Cloud consulting</h5>
@@ -195,16 +187,6 @@
         </div>
       </div>
     </div>
-
-    <!--<div class="blog-area">
-      <div class="blog-inner area-padding">
-        <div class="container ">
-          <div class="row">
-
-          </div>
-        </div>
-      </div>
-    </div>-->
 
     <div class="suscribe-area"></div>
     <div class="text-center">
