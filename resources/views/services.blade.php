@@ -19,13 +19,17 @@
           <div class="section-headline">
             <h2>Building secure, scalable, and lightning-fast digital products.</h2>
           </div>
-          <h5><strong>Software that performs</strong></h5>
-          <p>
+          <h5 class="mt-5" data-aos="zoom-in" data-aos-delay="100">
+            <strong class="section-title">
+              Software that performs
+            </strong>
+          </h5>
+          <h6>
             Modernizing legacy systems or creating a product from the ground up? We help companies define their tech stack, architecture, and infrastructure to stand the test of time.
-          </p>
-          <p>
+          </h6>
+          <h6>
             We work as partners at every stage of your digital journey. Unleash the potential in your organisation with insight and innovation. Deliver transformational digital products via engineering excellence and the assurance of ongoing performance through optimisation and support.
-          </p>
+          </h6>
         </div>
       </div>
     </div>
@@ -50,28 +54,28 @@
               </small>
             </strong>
           </h6>
-          <ul class="list-group list-group-flush" data-aos="fade-up" data-aos-delay="100">
-            <li class="list-group-item d-flex justify-content-between align-items-center px-0" >
+          <div class="list-group list-group-flush" data-aos="fade-up" data-aos-delay="100">
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0">
               <h4 class="section-headline">Tehonogy strategy</h4>
               <i class="bi bi-chevron-right"></i>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0">
               <h4>Product strategy</h4>
               <i class="bi bi-chevron-right"></i>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0">
               <h4>Digital transformation</h4>
               <i class="bi bi-chevron-right"></i>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0">
               <h4>Innovation</h4>
               <i class="bi bi-chevron-right"></i>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0">
               <h4>App audit</h4>
               <i class="bi bi-chevron-right"></i>
-            </li>
-          </ul>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -140,28 +144,28 @@
               </small>
             </strong>
           </h6>
-          <ul class="list-group list-group-flush" data-aos="fade-up" data-aos-delay="100">
-            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+          <div class="list-group list-group-flush" data-aos="fade-up" data-aos-delay="100">
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('services.monitoring') !!}">
               <h4>Monitoring</h4>
               <i class="bi bi-chevron-right"></i>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('services.optimisation-and-conversion') !!}">
               <h4>Optimisation and conversion</h4>
               <i class="bi bi-chevron-right"></i>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('services.maintain') !!}">
               <h4>Maintain</h4>
               <i class="bi bi-chevron-right"></i>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('services.data-science-and-analytics') !!}">
               <h4>Data science and analytics</h4>
               <i class="bi bi-chevron-right"></i>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('services.support') !!}">
               <h4>Support</h4>
               <i class="bi bi-chevron-right"></i>
-            </li>
-          </ul>
+            </a>
+          </div>
         </div>
       </div>
     </div>

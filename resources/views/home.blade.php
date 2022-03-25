@@ -91,16 +91,16 @@
               <div class="section-headline">
                 <h2>Tehnology Focus</h2>
               </div>
-              <h6>
+              <h5>
                 <strong>
                   Technology for the professional development of visually impaired people
                 </strong>
-              </h6>
-              <h6>
+              </h5>
+              <h5>
                 <strong>
                   We make lives better with mobile technologies
                 </strong>
-              </h6>
+              </h5>
               <h6>
                 Our unique, four step process means we don’t simply meet our clients’ needs, we exceed them.
                 Whatever the goal, however complicated the brief, we are driven to succeed.
@@ -153,36 +153,38 @@
           </div>
 
           <div class="col-md-3 col-sm-3 col-xs-12 mb-3 mx-auto" data-aos="zoom-in" data-aos-delay="100">
-            <div class="single-blog">
+            <a href="{!! route('internet-of-things') !!}">
               <div class="single-blog-img">
                 <img src="/img/internet-of-things.jpg" alt="">
               </div>
               <div class="services-content">
                 <h5 class="mb-1">Internet of Things Consulting </h5>
               </div>
-            </div>
+            </a>
           </div>
 
           <div class="col-md-3 col-sm-3 col-xs-12 mb-3" data-aos="zoom-in" data-aos-delay="100">
             <div class="single-blog">
-              <div class="single-blog-img">
-                <img src="/img/blockchain.jpg" alt="">
-              </div>
-              <div class="services-content">
-                <h5 class="mb-1">Blockchain Development </h5>
-              </div>
+              <a href="{!! route('blockchain-development') !!}">
+                <div class="single-blog-img">
+                  <img src="/img/blockchain.jpg" alt="">
+                </div>
+                <div class="services-content">
+                  <h5 class="mb-1">Blockchain Development </h5>
+                </div>
+              </a>
             </div>
           </div>
 
           <div class="col-md-3 col-sm-3 col-xs-12 mb-3 mx-auto" data-aos="zoom-in" data-aos-delay="100">
-            <div class="single-blog">
+            <a href="{!! route('cloud-consulting') !!}">
               <div class="single-blog-img">
                 <img src="/img/cloud-consulting.jpg" alt="">
               </div>
               <div class="services-content">
                 <h5 class="mb-1">Cloud consulting</h5>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -197,10 +199,27 @@
       <div class="blog-inner area-padding">
         <div class="container ">
           <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12" data-aos="fade-left" data-aos-delay="100">
               <div class="section-headline mb-4">
                 <h2>Our Perspectives</h2>
               </div>
+              <h5>
+                <strong>
+                  Whatever your challenge, we'll find the right solution
+                </strong>
+              </h5>
+              <h6 class="mb-4">
+                Solving complex problems to move your business forward
+              </h6>
+              <h6>
+                The best digital products are created around specific business goals, objectives and aspirations to unlock real value. We start by understanding your challenges, before determining how technology and design can move you forward.
+              </h6>
+              <h6>
+                Working across all industries with a variety of innovative and inspirational clients, we strategise, design, build and maintain the technology they need to keep moving.
+              </h6>
+              <h6>
+                The digital product journey presents multiple challenges and the below list provides a helpful starting point when trying to understand the kind of support you need.
+              </h6>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12 mb-4" data-aos="zoom-in" data-aos-delay="100">
               <a href="{!! route('tehnology-strategy') !!}">
@@ -229,14 +248,14 @@
             </div>
 
             <div class="col-md-4 col-sm-4 col-xs-12 mb-5" data-aos="zoom-in" data-aos-delay="100">
-              <div class="single-blog">
+              <a href="{!! route('neurorezonance') !!}">
                 <div class="single-blog-img">
                   <img src="https://picsum.photos/850/530" alt="">
                 </div>
                 <div class="services-content">
-                  <h5 class="mb-1">Neuroeducation / Education</h5>
+                  <h5 class="mb-1">Neuroeducation</h5>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div class="col-md-4 col-sm-4 col-xs-12 mb-5" data-aos="zoom-in" data-aos-delay="100">

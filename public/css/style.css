@@ -481,6 +481,7 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
 }
 #hero .carousel-item::before {
   content: "";
+  background-color: rgba(0, 0, 0, 0.3);
 }
 #hero .carousel-container {
   display: flex;
@@ -1829,7 +1830,15 @@ span.email-notes {
   }
 }
 
-
 .header-title h1, .header-title h2, .header-title h3, .header-title h4, .header-title h5, .header-title h6 {
   color: #fff;
+}
+
+.text-blue-dark {
+  color: #3B3A77;
+}
+
+.btn-outline-blue-dark {
+  color: #3B3A77;
+  border-color: #3B3A77;
 }
