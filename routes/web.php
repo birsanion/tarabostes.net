@@ -188,3 +188,8 @@ Route::get('/neurorezonance', function () {
 Route::get('/foundation', function () {
     return view('foundation');
 })->name('foundation');
+
+Route::get('/experience', function () {
+    return view('experience');
+})->name('experience');
+

@@ -7,7 +7,7 @@
             <div class="footer-head">
               <h4 class="text-uppercase"><strong>Quick links</strong></h4>
               <ul>
-                <li>Home</li>
+                <li><a href="{!! route('home') !!}">Home</a></li>
                 <li>Company</li>
                 <li>Contact us</li>
                 <li>Privacy Policy</li>
@@ -21,18 +21,13 @@
             <div class="footer-head">
               <h4 class="text-uppercase"><strong>Services</strong></h4>
               <ul>
-                <li>Mobile App Development</li>
-                <li>Entreprise App Development</li>
-                <li>App Development</li>
-                <li>Cloud Develoment</li>
-                <li>Website Develoment</li>
-                <li>Internet of Things</li>
-                <li>Big Data & Analytics</li>
-                <li>IT Staff Augmentation</li>
-                <li>App Design</li>
-                <li>App Marketing</li>
-                <li>Quality Assurance</li>
-                <li>Support & Maintenance</li>
+                <li><a href="{!! route('api-integration') !!}">API Integration</a></li>
+                <li><a href="{!! route('design') !!}">Mobile UI/UX Design</a></li>
+                <li><a href="{!! route('mobile-development') !!}">Mobile App Development</a></li>
+                <li><a href="{!! route('web-development') !!}">Driver Web Development</a></li>
+                <li><a href="{!! route('internet-of-things') !!}">Internet of things</a></li>
+                <li><a href="{!! route('blockchain-development') !!}">Blockchain Development</a></li>
+                <li><a href="{!! route('cloud-consulting') !!}">Cloud Consulting</a></li>
               </ul>
             </div>
           </div>
@@ -57,7 +52,7 @@
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="copyright text-center">
             <p class="text-uppercase">
-              Copyright &copy; 2022 TARABOSTES is a registred trademark. All Rights Reserved
+              Copyright &copy; {{ date('Y')}} TARABOSTES is a registred trademark. All Rights Reserved
             </p>
           </div>
         </div>

@@ -481,7 +481,7 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
 }
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 #hero .carousel-container {
   display: flex;
@@ -1841,4 +1841,9 @@ span.email-notes {
 .btn-outline-blue-dark {
   color: #3B3A77;
   border-color: #3B3A77;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: #fff
 }

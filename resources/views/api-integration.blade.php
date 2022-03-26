@@ -2,7 +2,7 @@
 
 @section('content')
 <main id="main">
-  <div class="header-bg page-area d-flex align-items-center" style="background-image: url(/img/banners/design.jpg)">
+  <div class="header-bg page-area d-flex align-items-center" style="background-image: url(/img/banners/api-integration.jpg)">
     <div class="container">
       <div class="container">
         <div class="header-title" data-aos="fade-up" data-aos-delay="100">

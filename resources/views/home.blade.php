@@ -88,30 +88,32 @@
         <div class="row">
           <div class="col-xs-12 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
             <div>
-              <div class="section-headline">
+              <div class="section-headline mb-4">
                 <h2>Tehnology Focus</h2>
               </div>
-              <h5>
+              <h4 class="section-title">
                 <strong>
                   Technology for the professional development of visually impaired people
                 </strong>
-              </h5>
-              <h5>
+              </h4>
+              <h4 class="section-title">
                 <strong>
                   We make lives better with mobile technologies
                 </strong>
-              </h5>
+              </h4>
               <h6>
-                Our unique, four step process means we don’t simply meet our clients’ needs, we exceed them.
+                Our unique, four step process means we don't simply meet our clients' needs, we exceed them.
                 Whatever the goal, however complicated the brief, we are driven to succeed.
               </h6>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-3 col-sm-3 col-xs-12 mb-3" data-aos="zoom-in" data-aos-delay="100">
+        <div class="row mt-4">
+          <div class="col-md-3 col-sm-3 col-xs-12 mb-5" data-aos="zoom-in" data-aos-delay="100">
             <a href="{!! route('api-integration') !!}">
               <div class="services-img">
-                <img src="https://picsum.photos/520/450" alt="">
+                <img src="/img/api-integration.jpg" alt="">
               </div>
               <div class="services-content">
                 <h5 class="mb-1">API Integration</h5>
@@ -119,10 +121,10 @@
             </a>
           </div>
 
-          <div class="col-md-3 col-sm-3 col-xs-12 mb-3" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-md-3 col-sm-3 col-xs-12 mb-5" data-aos="zoom-in" data-aos-delay="100">
             <a href="{!! route('design') !!}">
               <div class="services-img">
-                <img src="https://picsum.photos/520/450" alt="">
+                <img src="/img/design.jpg" alt="">
               </div>
               <div class="services-content">
                 <h5 class="mb-1">Mobile UI/UX Design</h5>
@@ -130,10 +132,10 @@
             </a>
           </div>
 
-          <div class="col-md-3 col-sm-3 col-xs-12 mb-3" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-md-3 col-sm-3 col-xs-12 mb-5" data-aos="zoom-in" data-aos-delay="100">
             <a href="{!! route('mobile-development') !!}">
               <div class="services-img">
-                <img src="https://picsum.photos/520/450" alt="">
+                <img src="/img/app-development.jpg" alt="">
               </div>
               <div class="services-content">
                 <h5 class="mb-1">Mobile App Development </h5>
@@ -141,18 +143,20 @@
             </a>
           </div>
 
-          <div class="col-md-3 col-sm-3 col-xs-12 mb-3" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-md-3 col-sm-3 col-xs-12 mb-5" data-aos="zoom-in" data-aos-delay="100">
             <a href="{!! route('web-development') !!}">
               <div class="services-img">
-                <img src="https://picsum.photos/520/450" alt="">
+                <img src="/img/web-development.jpg" alt="">
               </div>
               <div class="services-content">
                 <h5 class="mb-1">Drive web development</h5>
               </div>
             </a>
           </div>
+        </div>
 
-          <div class="col-md-3 col-sm-3 col-xs-12 mb-3 mx-auto" data-aos="zoom-in" data-aos-delay="100">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-3 col-sm-3 col-xs-12 mb-5" data-aos="zoom-in" data-aos-delay="100">
             <a href="{!! route('internet-of-things') !!}">
               <div class="single-blog-img">
                 <img src="/img/internet-of-things.jpg" alt="">
@@ -163,11 +167,11 @@
             </a>
           </div>
 
-          <div class="col-md-3 col-sm-3 col-xs-12 mb-3" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-md-3 col-sm-3 col-xs-12 mb-5" data-aos="zoom-in" data-aos-delay="100">
             <div class="single-blog">
               <a href="{!! route('blockchain-development') !!}">
                 <div class="single-blog-img">
-                  <img src="/img/blockchain.jpg" alt="">
+                  <img src="/img/blockchain-development.jpg" alt="">
                 </div>
                 <div class="services-content">
                   <h5 class="mb-1">Blockchain Development </h5>
@@ -176,7 +180,7 @@
             </div>
           </div>
 
-          <div class="col-md-3 col-sm-3 col-xs-12 mb-3 mx-auto" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-md-3 col-sm-3 col-xs-12 mb-5" data-aos="zoom-in" data-aos-delay="100">
             <a href="{!! route('cloud-consulting') !!}">
               <div class="single-blog-img">
                 <img src="/img/cloud-consulting.jpg" alt="">
@@ -190,24 +194,19 @@
       </div>
     </div>
 
-    <div class="suscribe-area"></div>
-    <div class="text-center">
-      <img src="/img/arrow-down.png" alt="" width="50">
-    </div>
-
-    <div class="blog-area">
-      <div class="blog-inner area-padding">
+    <div class="section-bg">
+      <div class="area-padding">
         <div class="container ">
           <div class="row">
-            <div class="col-xs-12" data-aos="fade-left" data-aos-delay="100">
+            <div class="col-xs-12 mb-4" data-aos="fade-left" data-aos-delay="100">
               <div class="section-headline mb-4">
                 <h2>Our Perspectives</h2>
               </div>
-              <h5>
+              <h4 class="section-title">
                 <strong>
                   Whatever your challenge, we'll find the right solution
                 </strong>
-              </h5>
+              </h4>
               <h6 class="mb-4">
                 Solving complex problems to move your business forward
               </h6>
@@ -221,11 +220,12 @@
                 The digital product journey presents multiple challenges and the below list provides a helpful starting point when trying to understand the kind of support you need.
               </h6>
             </div>
+
             <div class="col-md-4 col-sm-4 col-xs-12 mb-4" data-aos="zoom-in" data-aos-delay="100">
               <a href="{!! route('tehnology-strategy') !!}">
                 <div class="single-blog">
                   <div class="single-blog-img">
-                    <img src="https://picsum.photos/850/530" alt="">
+                    <img src="/img/tehnology-strategy.jpg" alt="">
                   </div>
                   <div class="services-content">
                     <h5 class="mb-1">Tehnology strategy</h5>
@@ -238,7 +238,7 @@
               <div class="single-blog">
                 <a href="{!! route('product-strategy') !!}">
                   <div class="single-blog-img">
-                    <img src="https://picsum.photos/850/530" alt="">
+                    <img src="/img/product-strategy.jpg" alt="">
                   </div>
                   <div class="services-content">
                     <h5 class="mb-1">Product strategy</h5>
@@ -250,7 +250,7 @@
             <div class="col-md-4 col-sm-4 col-xs-12 mb-5" data-aos="zoom-in" data-aos-delay="100">
               <a href="{!! route('neurorezonance') !!}">
                 <div class="single-blog-img">
-                  <img src="https://picsum.photos/850/530" alt="">
+                  <img src="/img/neurorezonance.jpg" alt="">
                 </div>
                 <div class="services-content">
                   <h5 class="mb-1">Neuroeducation</h5>
@@ -262,7 +262,7 @@
               <div class="single-blog">
                 <a href="{!! route('digital-transformation') !!}">
                   <div class="single-blog-img">
-                    <img src="https://picsum.photos/850/530" alt="">
+                    <img src="/img/digital-transformation.jpg" alt="">
                   </div>
                   <div class="services-content">
                     <h5 class="mb-1">Digital transformation</h5>
@@ -275,7 +275,7 @@
               <div class="single-blog">
                 <a href="{!! route('innovation') !!}">
                   <div class="single-blog-img">
-                    <img src="https://picsum.photos/850/530" alt="">
+                    <img src="/img/innovation.jpg" alt="">
                   </div>
                   <div class="services-content">
                     <h5 class="mb-1">Innovation</h5>
@@ -288,7 +288,7 @@
               <div class="single-blog">
                 <a href="{!! route('foundation') !!}">
                   <div class="single-blog-img">
-                    <img src="https://picsum.photos/850/530" alt="">
+                    <img src="/img/faundation.jpg" alt="">
                   </div>
                   <div class="services-content">
                     <h5 class="mb-1">Foundation</h5>

@@ -55,24 +55,28 @@
             </strong>
           </h6>
           <div class="list-group list-group-flush" data-aos="fade-up" data-aos-delay="100">
-            <a class="list-group-item d-flex justify-content-between align-items-center px-0">
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('tehnology-strategy') !!}">
               <h4 class="section-headline">Tehonogy strategy</h4>
               <i class="bi bi-chevron-right"></i>
             </a>
-            <a class="list-group-item d-flex justify-content-between align-items-center px-0">
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('product-strategy') !!}">
               <h4>Product strategy</h4>
               <i class="bi bi-chevron-right"></i>
             </a>
-            <a class="list-group-item d-flex justify-content-between align-items-center px-0">
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('digital-transformation') !!}">
               <h4>Digital transformation</h4>
               <i class="bi bi-chevron-right"></i>
             </a>
-            <a class="list-group-item d-flex justify-content-between align-items-center px-0">
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('innovation') !!}">
               <h4>Innovation</h4>
               <i class="bi bi-chevron-right"></i>
             </a>
-            <a class="list-group-item d-flex justify-content-between align-items-center px-0">
-              <h4>App audit</h4>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('neurorezonance') !!}">
+              <h4>Neuroeducation</h4>
+              <i class="bi bi-chevron-right"></i>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('foundation') !!}">
+              <h4>Foundation</h4>
               <i class="bi bi-chevron-right"></i>
             </a>
           </div>
@@ -98,28 +102,32 @@
               <small class="section-title">How can we help you?</small>
             </strong>
           </h6>
-          <ul class="list-group list-group-flush" data-aos="fade-up" data-aos-delay="100">
-            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-              <h4>Mobile app development</h4>
+          <div class="list-group list-group-flush" data-aos="fade-up" data-aos-delay="100">
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('api-integration') !!}">
+              <h4>API integration</h4>
               <i class="bi bi-chevron-right"></i>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-              <h4>Website development</h4>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('design') !!}">
+              <h4>Mobile UI/UX Desing</h4>
               <i class="bi bi-chevron-right"></i>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-              <h4>UX design</h4>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('mobile-development') !!}">
+              <h4>Mobile App Development</h4>
               <i class="bi bi-chevron-right"></i>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-              <h4>UI design</h4>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('internet-of-things') !!}">
+              <h4>Internet of Things Consulting</h4>
               <i class="bi bi-chevron-right"></i>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-              <h4>Complex system Integrations </h4>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('blockchain-development') !!}">
+              <h4>Blockchain Development</h4>
               <i class="bi bi-chevron-right"></i>
-            </li>
-          </ul>
+            </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('cloud-consulting') !!}">
+              <h4>Cloud consulting</h4>
+              <i class="bi bi-chevron-right"></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>

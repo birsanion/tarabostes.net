@@ -8,7 +8,7 @@
 
     <nav id="navbar" class="navbar">
       <ul>
-        <li><a class="nav-link text-uppercase" href="{!! route('home') !!}"><strong>Experience</strong></a></li>
+        <li><a class="nav-link text-uppercase" href="{!! route('experience') !!}"><strong>Experience</strong></a></li>
         <li><a class="nav-link text-uppercase" href="{!! route('services') !!}"><strong>Services</strong></a></li>
         <li><a class="nav-link text-uppercase" href="{!! route('solutions') !!}"><strong>Solutions</strong></a></li>
         <li><a class="nav-link text-uppercase" href="{!! route('about') !!}"><strong>About</strong></a></li>
