@@ -6,7 +6,7 @@
     <div class="container">
       <div class="container">
         <div class="header-title" data-aos="fade-up" data-aos-delay="100">
-          <h2 class="m-0"><strong>nternet of Things (IoT) Consulting</strong></h2>
+          <h2 class="m-0"><strong>Internet of Things (IoT) Consulting</strong></h2>
           <h5>Purpose-driven consulting for improved collaboration</h5>
         </div>
       </div>
