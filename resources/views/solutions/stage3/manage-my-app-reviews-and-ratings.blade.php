@@ -35,7 +35,7 @@
               How do we get to a 5-star app rating?
             </strong>
           </h5>
-          <a class="ready-btn" data-aos="fade-up" data-aos-delay="100" href="{!! route('get-in-touch') !!}">Get in touch</a>
+          <a class="ready-btn" data-aos="fade-up" data-aos-delay="100" href="{!! route('contact') !!}">Get in touch</a>
         </div>
       </div>
     </div>

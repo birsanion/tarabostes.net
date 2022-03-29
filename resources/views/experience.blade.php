@@ -153,7 +153,7 @@
           <h6>
             Get in touch for a discovery call
           </h6>
-          <a class="ready-btn" href="{!! route('get-in-touch') !!}" data-aos="fade-up" data-aos-delay="100">Get in touch</a>
+          <a class="ready-btn" href="{!! route('contact') !!}" data-aos="fade-up" data-aos-delay="100">Get in touch</a>
         </div>
       </div>
     </div>

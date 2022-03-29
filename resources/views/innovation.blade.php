@@ -16,11 +16,11 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 py-5" data-aos="zoom-in" data-aos-delay="100">
-          <h5 class="mt-5">
+          <h4 class="section-title mt-5">
             <strong>
               Innovation through insight and ideas
             </strong>
-          </h5>
+          </h4>
           <h6>
             We'll draw on experience, insight and technology advancement to uncover new answers to business challenges, create market advantage and unlock opportunities for your company.
           </h6>
@@ -30,11 +30,15 @@
           <h6>
             Previous innovation projects range from research in special psychopedagogy to the creation of working tools, web and mobile applications for psychologists, speech therapists, the creation of a mobile application for interconnecting people with disabilities with universities and companies for professional development.
           </h6>
-          <h6>
-            <strong>
-              Talk to us about Innovation
-            </strong>
-          </h6>
+          <h5 class="mt-5">
+            <a href="{{ route('contact') }}">
+              <strong>
+                <u>
+                  Talk to us about Innovation
+                </u>
+              </strong>
+            </a>
+          </h5>
         </div>
       </div>
     </div>

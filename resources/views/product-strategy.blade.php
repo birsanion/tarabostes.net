@@ -16,11 +16,11 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 py-5" data-aos="zoom-in" data-aos-delay="100">
-          <h5 class="mt-5">
+          <h4 class="section-title mt-5">
             <strong>
               Great strategy means great products
             </strong>
-          </h5>
+          </h4>
           <h6>
             Product strategy aligns your desired customer impact with measurable business outcomes.
           </h6>
@@ -30,11 +30,11 @@
           <h6>
             We'll work alongside your key stakeholders to manage that strategy to deliver success, evolving it through data and insight.
           </h6>
-          <h5 class="mt-5">
+          <h4 class="section-title mt-5">
             <strong>
               You'll benefit from:
             </strong>
-          </h5>
+          </h4>
           <ul>
             <li>
               <h6>Ideas created by multi-disciplined teams delivering fresh thinking around features and functionality<h6>

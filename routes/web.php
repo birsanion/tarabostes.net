@@ -149,9 +149,9 @@ Route::get('/web-development', function () {
     return view('web-development');
 })->name('web-development');
 
-Route::get('/get-in-touch', function () {
-    return view('get-in-touch');
-})->name('get-in-touch');
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
 
 Route::get('/about', function () {
     return view('about');
@@ -192,4 +192,3 @@ Route::get('/foundation', function () {
 Route::get('/experience', function () {
     return view('experience');
 })->name('experience');
-

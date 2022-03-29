@@ -26,10 +26,14 @@
           <h6 data-aos="zoom-in" data-aos-delay="100">
             Our aim is to create a complete picture of the way customers find, see and engage with your digital product to inform and implement recommendations which will maximise its visibility, functionality and ability to convert.
           </h6>
-          <a class="btn btn-outline-blue-dark mt-5 rounded-pill" data-aos="fade-up" data-aos-delay="100" href="#">
-            <strong>
-              Talk to us about optimisation and conversion
-            </strong>
+          <h5 class="mt-5" data-aos="zoom-in" data-aos-delay="100">
+            <a href="{{ route('contact') }}">
+              <strong>
+                <u>
+                  Talk to us about optimisation and conversion
+                </u>
+              </strong>
+            </a>
           </a>
         </div>
       </div>

@@ -23,7 +23,7 @@
   <link href="/vendor/aos/aos.css" rel="stylesheet">
   <link href="/css/style.css" rel="stylesheet">
 </head>
-<body>
+<body class="size-1">
   @component('components.header')
   @endcomponent
 
@@ -42,6 +42,7 @@
   <script src="/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/vendor/php-email-form/validate.js"></script>
   <script src="/js/main.js"></script>
 </body>
 </html>

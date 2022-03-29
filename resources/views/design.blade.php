@@ -99,7 +99,7 @@
           <h6>
             We're here to help. If you've got an idea or a direct need you would like help addressing, we're all ears!
           </h6>
-          <a class="ready-btn" href="{!! route('get-in-touch') !!}" data-aos="fade-up" data-aos-delay="100">Get in touch</a>
+          <a class="ready-btn" href="{!! route('contact') !!}" data-aos="fade-up" data-aos-delay="100">Get in touch</a>
         </div>
       </div>
     </div>
@@ -170,7 +170,7 @@
           <h6>
             We use three primary prototyping methods at Tarabostes software – each one bringing its strengths, each better suited to particular phases in the project lifecycle…
           </h6>
-          <a class="ready-btn" href="{!! route('get-in-touch') !!}" data-aos="fade-up" data-aos-delay="100">Get in touch</a>
+          <a class="ready-btn" href="{!! route('contact') !!}" data-aos="fade-up" data-aos-delay="100">Get in touch</a>
         </div>
       </div>
     </div>

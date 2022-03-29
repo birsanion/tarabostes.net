@@ -11,11 +11,11 @@
           <div class="carousel-item active" style="background-image: url(/img/banners/sarmisegetuza.jpg)">
             <div class="carousel-container">
               <div class="container header-top">
-                <p class="animate__animated animate__fadeInDown">
+                <h2 class="animate__animated animate__fadeInDown">
                   <strong>
                     We build tech for humanity
                   </strong>
-                </p>
+                </h2>
                 <h4 class="animate__animated animate__fadeInDown">
                   One idea can change the world.<br>
                   New ideas will discover new worlds.<br>
@@ -29,11 +29,11 @@
           <div class="carousel-item" style="background-image: url(/img/banners/coloana-infinit.jpg)">
             <div class="carousel-container">
               <div class="container header-top">
-                <p class="animate__animated animate__fadeInDown">
+                <h2 class="animate__animated animate__fadeInDown">
                   <strong>
                     Helping Business Security & Peace of Mind for Your Family
                   </strong>
-                </p>
+                </h2>
                 <h4 class="animate__animated animate__fadeInDown">We make lives better with mobile technologies</h2>
               </div>
             </div>
@@ -42,11 +42,11 @@
           <div class="carousel-item" style="background-image: url(/img/banners/casa-poporului.jpg)">
             <div class="carousel-container header-top">
               <div class="container">
-                <p class="animate__animated animate__fadeInDown">
+                <h2 class="animate__animated animate__fadeInDown">
                   <strong>
                     Trusted Digital Transformation Parteners for StartUp, Growing, Non profit organization, Government Institutions
                   </strong>
-                </p>
+                </h2>
               </div>
             </div>
           </div>
@@ -54,11 +54,11 @@
           <div class="carousel-item" style="background-image: url(/img/banners/balea-lac.jpg)">
             <div class="carousel-container">
               <div class="container header-top">
-                <p class="animate__animated animate__fadeInDown">
+                <h2 class="animate__animated animate__fadeInDown">
                   <strong>
                     Digital solutions that make people move and together we can make extraordinary things happen
                   </strong>
-                </p>
+                </h2>
               </div>
             </div>
           </div>
@@ -66,11 +66,11 @@
           <div class="carousel-item" style="background-image: url(/img/banners/sfinx.jpg)">
             <div class="carousel-container">
               <div class="container header-top">
-                <p class="animate__animated animate__fadeInDown">
+                <h2 class="animate__animated animate__fadeInDown">
                   <strong>
                     We&#39;re a team of creative thinkers &amp; makers Bespoke Software Development and Digital Transformation from Conception to Delivery
                   </strong>
-                </p>
+                </h2>
                 <h4 class="animate__animated animate__fadeInDown">
                   Trusted software development: delivered intelligently, designed to unlock growth.
                 </h4>
@@ -91,16 +91,16 @@
               <div class="section-headline mb-4">
                 <h2>Tehnology Focus</h2>
               </div>
-              <h4 class="section-title">
+              <h5>
                 <strong>
                   Technology for the professional development of visually impaired people
                 </strong>
-              </h4>
-              <h4 class="section-title">
+              </h5>
+              <h5>
                 <strong>
                   We make lives better with mobile technologies
                 </strong>
-              </h4>
+              </h5>
               <h6>
                 Our unique, four step process means we don't simply meet our clients' needs, we exceed them.
                 Whatever the goal, however complicated the brief, we are driven to succeed.
@@ -202,11 +202,11 @@
               <div class="section-headline mb-4">
                 <h2>Our Perspectives</h2>
               </div>
-              <h4 class="section-title">
+              <h5>
                 <strong>
                   Whatever your challenge, we'll find the right solution
                 </strong>
-              </h4>
+              </h5>
               <h6 class="mb-4">
                 Solving complex problems to move your business forward
               </h6>

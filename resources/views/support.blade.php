@@ -26,9 +26,15 @@
           <h6 data-aos="zoom-in" data-aos-delay="100">
             This can include second and third line support; investigate and fix for bugs and defects; as well as Continuous Integration and Deployment (CI/CD). Tarabostes software also provides full product launch support and management for products we’ve created as well as those built by other teams.
           </h6>
-          <a class="btn btn-outline-blue-dark mt-5 rounded-pill" data-aos="fade-up" data-aos-delay="100" href="#">
-            <strong>Talk to us about service support</strong>
-          </a>
+          <h5 class="mt-5" data-aos="zoom-in" data-aos-delay="100">
+            <a href="{{ route('contact') }}">
+              <strong>
+                <u>
+                  Talk to us about service support
+                </u>
+              </strong>
+            </a>
+          </h5>
         </div>
       </div>
     </div>

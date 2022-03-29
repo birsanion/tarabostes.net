@@ -41,12 +41,12 @@
           <h6 data-aos="fade-up" data-aos-delay="100">
             This culminates in a thorough examination of the market place to make an informed decision about the direction of a product as early in the process as possible.
           </h6>
-          <h5 class="my-5" data-aos="fade-up" data-aos-delay="100">
+          <h5 class="mt-5" data-aos="fade-up" data-aos-delay="100">
             <strong class="section-title">
               How can Tarabostes help me understand the market landscape?
             </strong>
           </h5>
-          <a class="ready-btn" data-aos="fade-up" data-aos-delay="100" href="{!! route('get-in-touch') !!}">Get in touch</a>
+          <a class="ready-btn" data-aos="fade-up" data-aos-delay="100" href="{!! route('contact') !!}">Get in touch</a>
         </div>
       </div>
     </div>

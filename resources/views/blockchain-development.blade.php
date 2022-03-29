@@ -95,6 +95,8 @@
           <div class="section-headline">
             <h2>How can we help you?</h2>
           </div>
+          @component('components.contact-form')
+          @endcomponent
         </div>
       </div>
     </div>

@@ -197,7 +197,7 @@
             Whether you are a Startup getting ready to launch a Cloud-based app or an Enterprise looking to migrate OR cutting down their expenses and taking advantage of Cloud improved reliability and auto-scaling features, Are you looking for Cloud Consulting Services, we are here to help.
           </h6>
           <h6>
-            <a href="{!! route('get-in-touch') !!}"><strong>Get in touch</strong></a> to speak with our Certified Consultants today.
+            <a href="{!! route('contact') !!}"><strong>Get in touch</strong></a> to speak with our Certified Consultants today.
           </h6>
         </div>
       </div>

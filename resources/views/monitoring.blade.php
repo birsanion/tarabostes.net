@@ -26,11 +26,15 @@
           <h6 data-aos="zoom-in" data-aos-delay="100">
             We build partnerships with our clients to ensure continued momentum long after we've built the first version.
           </h6>
-          <a class="btn btn-outline-blue-dark mt-5 rounded-pill" data-aos="fade-up" data-aos-delay="100" href="#">
-            <strong>
-              Talk to us about monitoring
-            </strong>
-          </a>
+          <h5 class="mt-5" data-aos="zoom-in" data-aos-delay="100">
+            <a href="{{ route('contact') }}">
+              <strong>
+                <u>
+                  Talk to us about monitoring
+                </u>
+              </strong>
+            </a>
+          </h5>
         </div>
       </div>
     </div>

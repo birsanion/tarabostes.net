@@ -111,6 +111,52 @@
     }
   }, true)
 
+  on('click', '#btn-text-bigger', function (e) {
+    e.preventDefault()
+    let body = select('body')
+    if (body.classList.contains('size-1')) {
+      body.classList.remove('size-1');
+      body.classList.add('size-2');
+    } else if (body.classList.contains('size-2')) {
+      body.classList.remove('size-2');
+      body.classList.add('size-3');
+    } else if (body.classList.contains('size-3')) {
+      body.classList.remove('size-3');
+      body.classList.add('size-4');
+    } else if (body.classList.contains('size-4')) {
+      body.classList.remove('size-4');
+      body.classList.add('size-5');
+    }
+  }, true)
+
+  on('click', '#btn-text-smaller', function (e) {
+    e.preventDefault()
+    let body = select('body')
+    if (body.classList.contains('size-5')) {
+      body.classList.remove('size-5');
+      body.classList.add('size-4');
+    } else if (body.classList.contains('size-4')){
+      body.classList.remove('size-4');
+      body.classList.add('size-3');
+    } else if (body.classList.contains('size-3')){
+      body.classList.remove('size-3');
+      body.classList.add('size-2');
+    } else if (body.classList.contains('size-2')){
+      body.classList.remove('size-2');
+      body.classList.add('size-1');
+    }
+  }, true)
+
+  on('click', '#btn-high-contrast', function (e) {
+    e.preventDefault()
+    let body = select('body')
+    if (body.classList.contains('highcontrast')) {
+      body.classList.remove('highcontrast')
+    } else {
+      body.classList.add('highcontrast')
+    }
+  })
+
   window.addEventListener('load', () => {
     AOS.init({
       duration: 1000,

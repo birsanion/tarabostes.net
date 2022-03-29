@@ -40,7 +40,7 @@
     </div>
   </div>
 
-  <div class="section-bg mb-4">
+  <div class="section-bg">
     <div class="container">
       <div class="row">
         <div class="col-xs-12 py-5" data-aos="zoom-in" data-aos-delay="100">
@@ -58,7 +58,7 @@
           <h6>
             We’re experts in commercial app development and the wider mobile app development ecosystem, with a proven track record of delivery for some of the biggest global brands.
           </h6>
-          <h5 class="mt-5">
+          <h5 class="section-title mt-5">
             <strong>
               What are the different types of mobile apps?
             </strong>

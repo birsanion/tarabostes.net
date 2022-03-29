@@ -26,11 +26,15 @@
           <h6 data-aos="zoom-in" data-aos-delay="100">
             Tarabostes software can make your data more manageable and use it to make your product more effective.
           </h6>
-          <a class="btn btn-outline-blue-dark mt-5 rounded-pill" data-aos="fade-up" data-aos-delay="100" href="#">
-            <strong>
-              Talk to us about data science and analytics
-            </strong>
-          </a>
+          <h5 class="mt-5" data-aos="zoom-in" data-aos-delay="100">
+            <a href="{{ route('contact') }}">
+              <strong>
+                <u>
+                  Talk to us about data science and analytics
+                </u>
+              </strong>
+            </a>
+          </h5>
         </div>
       </div>
     </div>

@@ -23,11 +23,15 @@
           <h6 data-aos="zoom-in" data-aos-delay="100">
             We keep your technology compatible and secure, supporting clients who have been through our development process, as well as extending it to externally-built products and solutions.
           </h6>
-          <a class="btn btn-outline-blue-dark mt-5 rounded-pill" data-aos="fade-up" data-aos-delay="100" href="#">
-            <strong>
-              Talk to us about maintaining momentum
-            </strong>
-          </a>
+          <h5 class="mt-5" data-aos="zoom-in" data-aos-delay="100">
+            <a href="{{ route('contact') }}">
+              <strong>
+                <u>
+                  Talk to us about maintaining momentum
+                </u>
+              </strong>
+            </a>
+          </h5>
         </div>
       </div>
     </div>

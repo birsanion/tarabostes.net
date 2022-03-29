@@ -31,11 +31,15 @@
           <h6>
             We use a collaborative consulting process which considers internal stakeholders and end users, with the aim of creating partnerships and solutions to keep your business moving forwards for the long term.
           </h6>
-          <h6>
-            <strong>
-              Talk to us about Digital transformation
-            </strong>
-          </h6>
+          <h5 class="mt-5">
+            <a href="{{ route('contact') }}">
+              <strong>
+                <u>
+                  Talk to us about Digital transformation
+                </u>
+              </strong>
+            </a>
+          </h5>
         </div>
       </div>
     </div>
