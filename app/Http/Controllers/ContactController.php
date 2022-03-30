@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -17,18 +18,21 @@ class ContactController extends Controller
             'message' => 'required',
         ]);
 
-        $to = 'birsan.ion@gmail.com';
-        $subject = 'Tarabostes Contact';
-        $headers = 'From: ' . $validatedData['email'] . "\r\n";
-        $message = 'First name: ' . $validatedData['first_name'] . '\n' .
-            'Last name: ' . $validatedData['last_name'] . '\n' .
-            'Company name: ' . $validatedData['company_name'] . '\n' .
-            'Email: ' . $validatedData['email'] . '\n' .
-            'Phone number: ' . $validatedData['phone'] . '\n' .
-            'Message: ' . $validatedData['message'] . '\n';
+        $message = "First name: " . $validatedData['first_name'] . "\n" .
+            "Last name: " . $validatedData['last_name'] . "\n" .
+            "Company name: " . $validatedData['company_name'] . "\n" .
+            "Email: " . $validatedData['email'] . "\n" .
+            "Phone number: " . $validatedData['phone'] . "\n" .
+            "Message: " . $validatedData['message'] . "\n";
+
+        Mail::raw($message, function ($message) use ($validatedData) {
+            $message->to('birsan.ion@gmail.com');
+            $message->subject('Tarabostes Contact');
+            $message->from($validatedData['email']);
+        });
 
         return response()->json([
-            'sent' => mail($to, $subject, $message, $headers),
+            'status' => 'ok',
         ]);
     }
 }
