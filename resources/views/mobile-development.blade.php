@@ -99,6 +99,8 @@
           <h6>
             There are several frameworks for building cross-platform apps; some allow for specific web technologies, others have better online communities and some double down on the performance of the end result. Whichever you choose, Tarabostes software can support your need for  Flutter or React Native builds that help you deliver to market as soon as possible.
           </h6>
+
+          <a class="ready-btn mt-5" href="{!! route('contact') !!}" data-aos="fade-up" data-aos-delay="100">Get in touch</a>
         </div>
       </div>
     </div>

@@ -129,6 +129,7 @@
           <h6>
            We work as partners at every stage of your digital journey. Unleash the potential in your organisation with insight and innovation. Deliver transformational digital products via engineering excellence and the assurance of ongoing performance through optimisation and support.
           </h6>
+          <a class="ready-btn mt-5" href="{!! route('contact') !!}" data-aos="fade-up" data-aos-delay="100">Get in touch</a>
         </div>
       </div>
     </div>

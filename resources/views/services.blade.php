@@ -115,6 +115,10 @@
               <h4>Mobile App Development</h4>
               <i class="bi bi-chevron-right"></i>
             </a>
+            <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('web-development') !!}">
+              <h4>Drive web development</h4>
+              <i class="bi bi-chevron-right"></i>
+            </a>
             <a class="list-group-item d-flex justify-content-between align-items-center px-0" href="{!! route('internet-of-things') !!}">
               <h4>Internet of Things Consulting</h4>
               <i class="bi bi-chevron-right"></i>
