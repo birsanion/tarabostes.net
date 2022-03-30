@@ -21,7 +21,7 @@
   <link href="/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="/vendor/aos/aos.css" rel="stylesheet">
-  <link href="/css/style.css?v=1" rel="stylesheet">
+  <link href="/css/style.css?v=2" rel="stylesheet">
 </head>
 <body class="size-1">
   @component('components.header')

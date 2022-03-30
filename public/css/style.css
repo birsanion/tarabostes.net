@@ -232,11 +232,11 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 65px;
+  max-height: 72px;
 }
 
 #header .blindcontrol img {
-  height: 30px;
+  height: 25px;
   margin: 0 3px;
 }
 
@@ -250,7 +250,7 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
   padding: 120px 0 60px;
   height: 75vh;
 }
@@ -848,7 +848,7 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
 }
 
 .ready-btn:hover {
-  border: 1px solid #3EC1D5;
+  background: #3B3A77;
   color: #fff;
 }
 
