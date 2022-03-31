@@ -7,8 +7,8 @@
       <div class="container">
         <div class="header-title" data-aos="fade-up" data-aos-delay="100">
           <h2 class="m-0"><strong>Experience</strong></h2>
-          <h4><strong></strong></h4>
-          <h5>The ultimate proof of our capability comes from the work we do</h5>
+          <h5 class="m-0">The ultimate proof of our capability comes from the work we do</h5>
+          <h5>To move forward, we never stand still</h5>
         </div>
       </div>
     </div>
@@ -18,21 +18,55 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 py-5" data-aos="zoom-in" data-aos-delay="100">
-          <h4 class="section-title mb-4">
+          <div class="section-headline">
+            <h2 class="mb-4">
+              The world of technology is always evolving
+            </h2>
+          </div>
+          <h6>
+            Leverage the wealth of knowledge our team of experts offer with over 14 years of experience delivering excellence in complex digital solutions.
+          </h6>
+          <h6>
+            We work with top organizations, from government institutions to national health services. What we all have in common is the use of technology for helping our customers and their customers to move forward.
+          </h6>
+          <h6>
+            How do we create digital products which deliver enriching experiences for people on the move? We keep moving to remain at the cutting-edge of innovation. Albert Einstein famously said: "Life is like riding a bicycle. To keep your balance you must keep moving."
+          </h6>
+          <h6>
+            So how do we do that?
+          </h6>
+          <div class="section-headline mt-5">
+            <h2>Life at Tarabostes software</h2>
+          </div>
+          <h6>
+            Our team all have roots in the digital and mobile world, and we combine our expertise, knowledge and networks to create something truly unique and bespoke.
+          </h6>
+          <h4 class="section-title mt-4">
             <strong>
-              Leverage the wealth of knowledge our team of experts offer with over 14 years of experience delivering excellence in complex digital solutions.
+              Our approach
             </strong>
           </h4>
           <h6>
-            We work with top organizations in their fields, from government institutions to national health services. What we all have in common is the use of technology to help our customers and their customers move forward.
+            Our values define the way we approach our work and enable us to help our clients and their customers to keep moving forward. We strive to do the right thing, solve challenging problems, ask the right questions and be proud of our work, all the while building products which perform.
           </h6>
-          <h5 class="mt-4">
+          <h6>
+            <a href="{{ route('services') }}">How we work</a>
+          </h6>
+          <h4 class="section-title mt-4">
+            <strong>
+              Our people
+            </strong>
+          </h4>
+          <h6>
+            Our movers and shakers are at the heart of what we do. Our ability to truly deliver starts and finishes with our experts. So who are the people that keep the wheels in motion at Tarabostes software?
+          </h6>
+          <h4 class="section-title mt-5">
             <strong>
               Here are some examples of our work.
             </strong>
-          </h5>
+          </h4>
         </div>
-        <div class="row mt-4">
+        <div class="row">
           <div class="col-sm-12 mb-5" data-aos="zoom-in" data-aos-delay="100">
             <div class="services-img">
               <img src="/img/portofolio/blindhub_app_prezentare.png" alt="">
@@ -135,7 +169,17 @@
           </div>
           <div class="col-md-2 col-sm-4 mb-5" data-aos="zoom-in" data-aos-delay="100">
             <div class="services-img">
+              <img src="/img/portofolio/CSEI_suceava.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-4 mb-5" data-aos="zoom-in" data-aos-delay="100">
+            <div class="services-img">
               <img src="/img/portofolio/DGASPC_S6.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-4 mb-5" data-aos="zoom-in" data-aos-delay="100">
+            <div class="services-img">
+              <img src="/img/portofolio/csei_sf_andrei.png" alt="">
             </div>
           </div>
         </div>

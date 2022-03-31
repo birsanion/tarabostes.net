@@ -8,10 +8,10 @@
               <h4 class="text-uppercase"><strong>Quick links</strong></h4>
               <ul>
                 <li><a href="{!! route('home') !!}">Home</a></li>
-                <li>Company</li>
-                <li href="{!! route('contact') !!}">Contact us</li>
-                <li>Privacy Policy</li>
-                <li>Terms & Conditions</li>
+                <li><a href="{!! route('about') !!}">Company</a></li>
+                <li><a href="{!! route('contact') !!}">Contact us</a></li>
+                <li><a href="{!! route('privacy-policy') !!}">Privacy Policy</a></li>
+                <li><a href="{!! route('terms') !!}">Terms & Conditions</a></li>
               </ul>
             </div>
           </div>
