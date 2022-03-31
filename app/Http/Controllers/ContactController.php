@@ -27,7 +27,7 @@ class ContactController extends Controller
             'content' => $input['message'],
         ], function ($message) use ($request) {
             $message->from($request->email);
-            $message->to('birsan.ion@gmail.com')->subject('Tarabostes Contact Form');
+            $message->to('mihai@tarabostes.net')->subject('Tarabostes Contact Form');
         });
 
         return response()->json([
