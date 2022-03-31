@@ -9,7 +9,7 @@ class ContactController extends Controller
 {
     public function index(Request $request)
     {
-        $validatedData = $request->validate([
+        $input = $request->validate([
             'first_name' => 'required',
             'last_name' => 'required',
             'phone' => 'required',
@@ -18,17 +18,16 @@ class ContactController extends Controller
             'message' => 'required',
         ]);
 
-        $message = "First name: " . $validatedData['first_name'] . "\n" .
-            "Last name: " . $validatedData['last_name'] . "\n" .
-            "Company name: " . $validatedData['company_name'] . "\n" .
-            "Email: " . $validatedData['email'] . "\n" .
-            "Phone number: " . $validatedData['phone'] . "\n" .
-            "Message: " . $validatedData['message'] . "\n";
-
-        Mail::raw($message, function ($message) use ($validatedData) {
-            $message->to('birsan.ion@gmail.com');
-            $message->subject('Tarabostes Contact');
-            $message->from($validatedData['email']);
+        Mail::send('mail.contactMail', [
+            'first_name' => $input['first_name'],
+            'last_name' => $input['last_name'],
+            'phone' => $input['phone'],
+            'email' => $input['email'],
+            'company_name' => $input['company_name'],
+            'content' => $input['message'],
+        ], function ($message) use ($request) {
+            $message->from($request->email);
+            $message->to('birsan.ion@gmail.com')->subject('Tarabostes Contact Form');
         });
 
         return response()->json([
